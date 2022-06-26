@@ -1,9 +1,5 @@
 export const tabs = [
   {
-    title: "ABOUT",
-    url: "/",
-  },
-  {
     title: "EXPERIENCE",
     url: "/experience",
   },
@@ -13,11 +9,7 @@ export const tabs = [
   },
   {
     title: "CONTACT",
-    url: "/contanct/",
-  },
-  {
-    title: "GOALS",
-    url: "/goals/",
+    url: "/contact/",
   },
 ];
 

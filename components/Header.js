@@ -7,9 +7,12 @@ const Header = () => {
 
     return (
       <div className="w-screen sticky flex justify-between border-b">
-        <div className="w-full px-4 pt-4 text-white text-xl">
+        <button
+        className="w-1/6 pt-4 text-xl text-gray-300 hover:text-white "
+          onClick={() => router.push("/")}
+        >
           {name}
-        </div>
+        </button>
         <div className="w-full flex justify-evenly px-4 pt-4 text-white">
           {tabs.map(
             (
@@ -20,6 +23,7 @@ const Header = () => {
                 key={`tab-${index}`}
               >
                 <button
+                  className="text-gray-300 hover:text-white"
                   onClick={() => router.push(tab.url)}>
                   <div>
                     {" "}{tab.title}{" "}
