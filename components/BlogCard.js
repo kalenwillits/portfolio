@@ -2,7 +2,7 @@ import ReactMarkdown from "react-markdown";
 
 const BlogCard = ({data, key}) => {
   return (
- <div key={key} className="grid grid-cols-6 text-gray-300 border rounded-md p-4">
+ <div key={key} className="grid grid-cols-6 text-gray-300 border rounded-lg p-4">
     <div className="col-span-1  border-r mr-4">
       <div>
         {data.timeline}
