@@ -39,7 +39,7 @@ const Header = ({activeTab}) => {
                 <button
                   className="text-gray-300 rounded-lg hover:text-white"
                   onClick={() => router.push(tab.url)}>
-                  <div className="flex mx-4">
+                  <div className="flex mx-4 items-center">
                     {useIcon(tab.icon)}
                     <p className="hidden md:block">{tab.title}</p>
                   </div>

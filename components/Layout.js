@@ -1,13 +1,9 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Head from 'next/head';
 
 const Layout = ({children, activeTab}) => {
   return (
     <div className="overflow-x-hidden py-12 w-screen h-screen bg-zinc-900">
-      <Head>
-        <link rel="shortcut icon" href="/favicon.ico" />
-      </Head>
       <Header activeTab={activeTab}/>
       <div className="px-14 pt-4">
       {children}
