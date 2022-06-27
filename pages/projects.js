@@ -7,7 +7,10 @@ const Projects = () => {
       <Layout activeTab="Projects">
         <div className="md:mt-10">
           {projects.map((item, index) => (
-            <ProjectCard data={item}/>
+            <>
+              <div className={index > 0 ? "mt-4" : ""}></div>
+              <ProjectCard data={item}/>
+            </>
             )
           )}
         </div>

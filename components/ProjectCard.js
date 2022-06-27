@@ -1,4 +1,3 @@
-import ReactMarkdown from "react-markdown";
 
 const ProjectCard = ({ data }) => {
   return (
@@ -14,9 +13,7 @@ const ProjectCard = ({ data }) => {
         {data.timestamp}
       </div>
     </div>
-    <div className="col-span-4 mt-4 md:mt-0">
-    <ReactMarkdown className="w-full">{data.description}</ReactMarkdown>
-    </div>
+    <div className="col-span-4 mt-4 md:mt-0" dangerouslySetInnerHTML={{__html: data.description}} />
     <div className="col-span-6 mt-4 border-t px-4 pt-4">
       {data?.links && data.links.map((link, index) => (
         <div className="col-span-6">

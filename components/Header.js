@@ -48,7 +48,7 @@ const Header = ({activeTab}) => {
             )
           )}
         </div>
-      <div className="flex mt-4 justify-center block md:hidden text-white text-2xl">
+      <div className="flex mt-4 justify-center block md:hidden text-white text-lg">
         {activeTab}
       </div>
       </>

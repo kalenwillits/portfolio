@@ -5,8 +5,8 @@ export const tabs = [
     icon: "Home",
   },
   {
-    title: "News",
-    url: "/news/",
+    title: "Blog",
+    url: "/blog/",
     icon: "Newspaper",
   },
   {

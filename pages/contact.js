@@ -6,7 +6,7 @@ const Contact = () => {
     <Layout activeTab="Contact">
       <div className="text-gray-300 grid grid-cols-1 items-center md:mt-10 border rounded-lg p-4">
         <p className="border-b pb-4">
-          Looking to get in touch? Feel free to reach out!
+          Looking to get in touch? Send me an email or connect on LikedIn.
         </p>
       <div className="mt-4">
         LinkedIn: <a href="https://www.linkedin.com/in/kalenwillits/" className="text-sky-500" target="_blank" >https://www.linkedin.com/in/kalenwillits/</a>

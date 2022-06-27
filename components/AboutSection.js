@@ -19,16 +19,13 @@ const AboutSection = () => {
             <p>
               Kalen Willits
             </p>
-            <p>
+            <p className="text-amber-500">
               Software Developer
             </p>
           </div>
         </div>
         <div className="text-white md:px-10 col-span-5 md:col-span-4">
-          <div className="text-2xl"></div>
-          <p className="mt-4 text-gray-300 indent-12">
-            {about.description}
-          </p>
+          <div className="mt-4 text-gray-300 indent-12" dangerouslySetInnerHTML={{__html: about.description}} />
         </div>
       </div>
   )
