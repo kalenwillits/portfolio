@@ -26,7 +26,7 @@ export const projects =
       description: `
         This website is my personal creation to organize my journey through coding and developing.
 
-        I built this website using Next.js and styled it with Tailwind CSS. It is reactive, mobile optimized. I chose
+        I built this website using Next.js and styled it with Tailwind CSS. It is reactive and mobile optimized. I chose
         to keep the data such as this post static in order to keep maintenance and loading times at a minimum.
 
         There are still some "TODOs" on this that will help scale the content of the page that I will implement as needed.
