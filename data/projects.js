@@ -35,7 +35,7 @@ export const projects =
         [
           {
             title:"GitHub Repository",
-            url: "",
+            url: "https://github.com/KalenWillits/portfolio/",
           },
         ],
       bullets:
