@@ -13,7 +13,7 @@ const ProjectCard = ({ data }) => {
         {data.timestamp}
       </div>
     </div>
-    <div className="col-span-4 mt-4 md:mt-0" dangerouslySetInnerHTML={{__html: data.description}} />
+    <div className="col-span-6 md:col-span-4 mt-4 md:mt-0" dangerouslySetInnerHTML={{__html: data.description}} />
     <div className="col-span-6 px-4 pt-4 mt-4 border-t">
       {data?.links && data.links.map((link, index) => (
         <div className="col-span-6">

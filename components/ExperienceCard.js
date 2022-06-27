@@ -16,7 +16,7 @@ const ExperienceCard = ({ data }) => {
         {data.location}
       </div>
     </div>
-    <div className="col-span-4 px-4 mt-4 md:mt-0">
+    <div className="col-span-6 md:col-span-4 px-4 mt-4 md:mt-0">
       {data.bullets && data.bullets.map((bullet, index) => (
         <li key={index}>
           {bullet}
