@@ -2,7 +2,7 @@ export const blogs =
   [
     {
       title:
-        "My portfolio live!",
+        "My portfolio is live!",
       timestamp:
         "June 27th, 2022",
       body: `

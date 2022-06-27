@@ -10,7 +10,7 @@ const BlogCard = ({ data }) => {
         {data.timestamp}
       </div>
     </div>
-    <div className="col-span-4 mt-4 md:mt-0" dangerouslySetInnerHTML={{__html: data.body}} />
+    <div className="col-span-6 md:col-span-4 mt-4 md:mt-0 indent-5" dangerouslySetInnerHTML={{__html: data.body}} />
    </div>
   )
 };
