@@ -7,9 +7,9 @@ const AboutSection = () => {
 
   return (
       <div className="grid grid-cols-5 md:mt-10">
-        <div className="col-span-5 md:col-span-1 grid place-content-center">
+        <div className="grid col-span-5 place-content-center md:col-span-1">
         <Image
-          className="p-0 rounded-full border-white border"
+          className="p-0 rounded-full border border-white"
           src="/selfie-edited.jpg"
           alt="selfie"
           height={imageSize}
@@ -24,7 +24,7 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
-        <div className="text-white md:px-10 col-span-5 md:col-span-4">
+        <div className="col-span-5 text-white md:col-span-4 md:px-10">
           <div className="mt-4 text-gray-300" dangerouslySetInnerHTML={{__html: about.description}} />
         </div>
       </div>

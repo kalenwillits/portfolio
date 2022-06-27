@@ -15,22 +15,22 @@ const Header = ({activeTab}) => {
   const useIcon = (icon) => {
     switch (icon) {
       case "Home":
-        return (<HomeIcon className="h-5 w-5 mx-2"/>);
+        return (<HomeIcon className="mx-2 w-5 h-5"/>);
       case "AcademicCap":
-        return (<AcademicCapIcon className="h-5 w-5 mx-2"/>);
+        return (<AcademicCapIcon className="mx-2 w-5 h-5"/>);
       case "PaperAirplane":
-        return (<PaperAirplaneIcon className="h-5 w-5 mx-2"/>);
+        return (<PaperAirplaneIcon className="mx-2 w-5 h-5"/>);
       case "ChatAlt":
-        return (<ChatAltIcon className="h-5 w-5 mx-2"/>);
+        return (<ChatAltIcon className="mx-2 w-5 h-5"/>);
       case "Newspaper":
-        return (<NewspaperIcon className="h-5 w-5 mx-2"/>);
+        return (<NewspaperIcon className="mx-2 w-5 h-5"/>);
       default:
         return (<></>);
     }
   };
     return (
       <>
-      <div className="w-screen fixed top-0 flex justify-between border-b p-4 bg-zinc-900 z-10">
+      <div className="flex fixed top-0 z-10 justify-between p-4 w-screen border-b bg-zinc-900">
           {tabs.map((tab, index) => (
               <div
                 className={activeTab === tab.title ? "border-b" : ""}
@@ -39,7 +39,7 @@ const Header = ({activeTab}) => {
                 <button
                   className="text-gray-300 rounded-lg hover:text-white"
                   onClick={() => router.push(tab.url)}>
-                  <div className="mx-4 flex">
+                  <div className="flex mx-4">
                     {useIcon(tab.icon)}
                     <p className="hidden md:block">{tab.title}</p>
                   </div>
@@ -48,7 +48,7 @@ const Header = ({activeTab}) => {
             )
           )}
         </div>
-      <div className="flex mt-4 justify-center block md:hidden text-white text-lg">
+      <div className="block flex justify-center mt-4 text-lg text-white md:hidden">
         {activeTab}
       </div>
       </>

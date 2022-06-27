@@ -1,8 +1,8 @@
 
 const ProjectCard = ({ data }) => {
   return (
-    <div key={data.title} className="grid grid-cols-6 text-gray-300 border rounded-lg p-4">
-    <div className="col-span-6 md:col-span-2 md: pb-4 border-b md:border-r md:border-b-0 mr-4 pr-4 min-w-fit">
+    <div key={data.title} className="grid grid-cols-6 p-4 text-gray-300 rounded-lg border">
+    <div className="col-span-6 pr-4 pb-4 mr-4 border-b md:col-span-2 md:border-b-0 md:border-r min-w-fit md:">
       <div className="text-fuchsia-500">
         {data.title}
       </div>
@@ -14,7 +14,7 @@ const ProjectCard = ({ data }) => {
       </div>
     </div>
     <div className="col-span-4 mt-4 md:mt-0" dangerouslySetInnerHTML={{__html: data.description}} />
-    <div className="col-span-6 mt-4 border-t px-4 pt-4">
+    <div className="col-span-6 px-4 pt-4 mt-4 border-t">
       {data?.links && data.links.map((link, index) => (
         <div className="col-span-6">
         <a
@@ -27,7 +27,7 @@ const ProjectCard = ({ data }) => {
         </div>
       ))}
     </div>
-    <div className="col-span-6 mt-4 border-t px-4 pt-4">
+    <div className="col-span-6 px-4 pt-4 mt-4 border-t">
       {data?.bullets && data.bullets.map((bullet, index) => (
         <li key={index}>
           {bullet}

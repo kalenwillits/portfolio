@@ -4,8 +4,8 @@ import Layout from "../components/Layout";
 const Contact = () => {
   return (
     <Layout activeTab="Contact">
-      <div className="text-gray-300 grid grid-cols-1 items-center md:mt-10 border rounded-lg p-4">
-        <p className="border-b pb-4">
+      <div className="grid grid-cols-1 items-center p-4 text-gray-300 rounded-lg border md:mt-10">
+        <p className="pb-4 border-b">
           Looking to get in touch? Send me an email or connect on LikedIn.
         </p>
       <div className="mt-4">

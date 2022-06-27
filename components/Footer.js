@@ -6,7 +6,7 @@ const Footer = () => {
   const LinkedInLogoAspectRatio = 1.1759;
   const gitHubAspectRatio = 1;
   return (
-    <div className="flex w-screen fixed bottom-0 p-4 border-t bg-zinc-900 -mb-2">
+    <div className="flex fixed bottom-0 p-4 -mb-2 w-screen border-t bg-zinc-900">
       <a
         className="ml-4"
         href="https://www.linkedin.com/in/kalenwillits/"

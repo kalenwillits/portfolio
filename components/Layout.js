@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 const Layout = ({children, activeTab}) => {
   return (
-    <div className="py-12 w-screen h-screen bg-zinc-900 overflow-x-hidden">
+    <div className="overflow-x-hidden py-12 w-screen h-screen bg-zinc-900">
       <Head>
         <link rel="shortcut icon" href="/favicon.ico" />
       </Head>

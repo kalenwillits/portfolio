@@ -1,8 +1,8 @@
 
 const BlogCard = ({ data }) => {
   return (
-    <div key={data.title} className="grid grid-cols-6 text-gray-300 border rounded-lg p-4">
-    <div className="col-span-6 md:col-span-2 md: pb-4 border-b md:border-r md:border-b-0 mr-4 pr-4 min-w-fit">
+    <div key={data.title} className="grid grid-cols-6 p-4 text-gray-300 rounded-lg border">
+    <div className="col-span-6 pr-4 pb-4 mr-4 border-b md:col-span-2 md:border-b-0 md:border-r min-w-fit md:">
       <div>
         {data.title}
       </div>
@@ -10,7 +10,7 @@ const BlogCard = ({ data }) => {
         {data.timestamp}
       </div>
     </div>
-    <div className="col-span-6 md:col-span-4 mt-4 md:mt-0 indent-5" dangerouslySetInnerHTML={{__html: data.body}} />
+    <div className="col-span-6 mt-4 md:col-span-4 md:mt-0 indent-5" dangerouslySetInnerHTML={{__html: data.body}} />
    </div>
   )
 };
