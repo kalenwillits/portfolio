@@ -29,7 +29,7 @@ export const projects =
         I built this website using Next.js and styled it with Tailwind CSS. It is reactive, mobile optimized. I chose
         to keep the data such as this post static in order to keep maintenance and loading times at a minimum.
 
-        There are still some "TODOs" to that will help scale the content of the page that I will implement as needed.
+        There are still some "TODOs" on this that will help scale the content of the page that I will implement as needed.
   `,
       links:
         [
