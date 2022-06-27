@@ -3,7 +3,7 @@ const ProjectCard = ({ data }) => {
   return (
     <div key={data.title} className="grid grid-cols-6 text-gray-300 border rounded-lg p-4">
     <div className="col-span-6 md:col-span-2 md: pb-4 border-b md:border-r md:border-b-0 mr-4 pr-4 min-w-fit">
-      <div>
+      <div className="text-fuchsia-500">
         {data.title}
       </div>
       <div>

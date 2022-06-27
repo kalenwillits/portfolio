@@ -5,11 +5,6 @@ export const tabs = [
     icon: "Home",
   },
   {
-    title: "Blog",
-    url: "/blog/",
-    icon: "Newspaper",
-  },
-  {
     title: "Experience",
     url: "/experience/",
     icon: "AcademicCap",
@@ -18,6 +13,11 @@ export const tabs = [
     title: "Projects",
     url: "/projects/",
     icon: "PaperAirplane",
+  },
+  {
+    title: "Blog",
+    url: "/blog/",
+    icon: "Newspaper",
   },
   {
     title: "Contact",
