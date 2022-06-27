@@ -26,7 +26,7 @@ const AboutSection = () => {
         </div>
         <div className="text-white md:px-10 col-span-5 md:col-span-4">
           <div className="text-2xl"></div>
-          <p className="mt-4 text-gray-300 text-lg indent-12">
+          <p className="mt-4 text-gray-300 indent-12">
             {about.description}
           </p>
         </div>
