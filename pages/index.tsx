@@ -3,7 +3,7 @@ import AboutSection from "../components/AboutSection";
 
 const About = () => {
   return (
-    <Layout>
+    <Layout activeTab="About">
       <AboutSection />
     </Layout>
   )

@@ -1,13 +1,13 @@
 import Layout from "../components/Layout";
-import BlogCard from "../components/BlogCard";
+import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data/projects";
 
 const Projects = () => {
     return (
-      <Layout>
-        <div className="">
+      <Layout activeTab="Projects">
+        <div className="md:mt-10">
           {projects.map((item, index) => (
-            <BlogCard key={index} data={item}/>
+            <ProjectCard data={item}/>
             )
           )}
         </div>

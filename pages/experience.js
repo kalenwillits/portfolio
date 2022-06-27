@@ -1,13 +1,16 @@
 import Layout from "../components/Layout";
-import BlogCard from "../components/BlogCard";
+import ExperienceCard from "../components/ExperienceCard";
 import { experience } from "../data/experience";
 
 const Experience = () => {
     return (
-      <Layout>
-        <div className="">
+      <Layout activeTab="Experience">
+        <div className="md:mt-10">
           {experience.map((item, index) => (
-            <BlogCard key={index} data={item}/>
+            <>
+            <div className={index > 0 ? "mt-4" : ""}></div>
+            <ExperienceCard data={item}/>
+            </>
             )
           )}
         </div>

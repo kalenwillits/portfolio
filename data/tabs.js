@@ -1,16 +1,26 @@
 export const tabs = [
   {
-    title: "EXPERIENCE",
-    url: "/experience",
+    title: "About",
+    url: "/",
+    icon: "Home",
+  },
+  {
+    title: "News",
+    url: "/news/",
+    icon: "Newspaper",
+  },
+  {
+    title: "Experience",
+    url: "/experience/",
     icon: "AcademicCap",
   },
   {
-    title: "PROJECTS",
+    title: "Projects",
     url: "/projects/",
     icon: "PaperAirplane",
   },
   {
-    title: "CONTACT",
+    title: "Contact",
     url: "/contact/",
     icon: "ChatAlt",
   },

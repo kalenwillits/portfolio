@@ -1,9 +1,9 @@
 import ReactMarkdown from "react-markdown";
 
-const BlogCard = ({data, key}) => {
+const ProjectCard = ({ data }) => {
   return (
- <div key={key} className="grid grid-cols-6 text-gray-300 border rounded-lg p-4">
-    <div className="col-span-1  border-r mr-4">
+    <div key={data.title} className="grid grid-cols-6 text-gray-300 border rounded-lg p-4">
+    <div className="col-span-2 md:col-span-1 border-r mr-4 pr-4 min-w-fit">
       <div>
         {data.timeline}
       </div>
@@ -17,7 +17,7 @@ const BlogCard = ({data, key}) => {
         {data.location}
       </div>
     </div>
-    <div className="col-span-5">
+    <div className="col-span-4">
     <ReactMarkdown className="w-full">{data.description}</ReactMarkdown>
     </div>
     <div className="col-span-6 mt-4 border-t px-4 pt-4">
@@ -31,6 +31,6 @@ const BlogCard = ({data, key}) => {
   )
 };
 
-export default BlogCard;
+export default ProjectCard;
 
 
