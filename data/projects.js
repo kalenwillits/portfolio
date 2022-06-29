@@ -21,6 +21,31 @@ let schema =
 export const projects =
   [
     {
+      title: "nbk - A simple terminal notebook for developers",
+      description: `
+    nbk is a terminal notebook that runs on Linux meant to be as minimal as possible while keeping all of the right
+    features. This application can be run from any terminal and utilizes vim as an editor. With a very small query
+    string, nbk can create, read, update, filter, delete, copy snippets, and execute code snippets without leaving your
+    favorite IDE. In my workflow, keeping detailed notes and using code snippets is essential. This tool has become a
+    staple of mine in order to stay on track and deliver quality code before deadlines.
+  `,
+      timestamp: "June 29th, 2022",
+      links:
+        [
+          {
+            title: "nbk Public GitHub Repository",
+            url: "https://github.com/KalenWillits/nbk",
+          },
+        ],
+      bullets:
+        [
+          "Python",
+          "Pandas",
+          "Bash",
+          "Linux",
+        ],
+    },
+    {
       title: "Portfolio Website",
       timestamp: "June 27th, 2022",
       description: `
