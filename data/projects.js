@@ -23,11 +23,12 @@ export const projects =
     {
       title: "nbk - A simple terminal notebook for developers",
       description: `
-    nbk is a terminal notebook that runs on Linux meant to be as minimal as possible while keeping all of the right
-    features. This application can be run from any terminal and utilizes vim as an editor. With a very small query
-    string, nbk can create, read, update, filter, delete, copy snippets, and execute code snippets without leaving your
-    favorite IDE. In my workflow, keeping detailed notes and using code snippets is essential. This tool has become a
-    staple of mine in order to stay on track and deliver quality code before deadlines.
+    nbk is a terminal notebook that runs on Linux. Designed to stay out of your way while keeping enough features
+    available to keep you on track. This application can be run from any terminal and utilizes vim as an
+    editor. With a very small query string, nbk can create, read, update, filter, delete, copy snippets, and execute
+    code snippets without leaving your favorite IDE. In my workflow, keeping detailed notes and using code snippets is
+    essential. This tool has become a staple of mine in order to stay on track and deliver quality code before
+    deadlines.
   `,
       timestamp: "June 29th, 2022",
       links:
