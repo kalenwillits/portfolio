@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import LogCard from "../components/DevLogCard";
+import LogCard from "../components/LogCard";
 import { devLogs } from "../data/devLogs";
 
 const Logs = () => {
