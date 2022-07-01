@@ -1,3 +1,12 @@
+# Kalen Willits - Portfolio website
+This website was built using Next.js and Tailwind.
+
+# TODO
+- [] Add query parameters to filter page values
+- [] Add filters interface for users to alter query params
+- [] Create contact form on contact page
+
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).

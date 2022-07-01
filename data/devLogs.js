@@ -1,4 +1,4 @@
-export const blogs =
+export const devLogs =
   [
     {
       title:
