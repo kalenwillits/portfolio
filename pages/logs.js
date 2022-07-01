@@ -1,10 +1,10 @@
 import Layout from "../components/Layout";
-import DevLogCard from "../components/DevLogCard";
+import LogCard from "../components/DevLogCard";
 import { devLogs } from "../data/devLogs";
 
-const DevLogs = () => {
+const Logs = () => {
     return (
-      <Layout activeTab="DevLogs">
+      <Layout activeTab="Logs">
         <div className="md:mt-10">
           {devLogs.map((item, index) => (
             <DevLogCard data={item}/>
@@ -15,4 +15,4 @@ const DevLogs = () => {
     );
   };
 
-export default DevLogs;
+export default Logs;

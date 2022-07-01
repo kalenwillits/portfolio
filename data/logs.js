@@ -1,4 +1,4 @@
-export const devLogs =
+export const logs =
   [
     {
       title:
