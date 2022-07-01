@@ -1,13 +1,13 @@
 import Layout from "../components/Layout";
 import LogCard from "../components/LogCard";
-import { devLogs } from "../data/devLogs";
+import { logs } from "../data/logs";
 
 const Logs = () => {
     return (
       <Layout activeTab="Logs">
         <div className="md:mt-10">
-          {devLogs.map((item, index) => (
-            <DevLogCard data={item}/>
+          {logs.map((item, index) => (
+            <LogCard data={item}/>
             )
           )}
         </div>
