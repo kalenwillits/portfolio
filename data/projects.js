@@ -21,6 +21,36 @@ let schema =
 export const projects =
   [
     {
+      title: "Lexicons - A dynamic websocket framework for performance.",
+      company: "",
+      description: `
+Lexicons is an asynchronous websocket server framework written in Python designed to handle small and medium sized data
+sets. The data is not persistent but dumps all tables to separate json files on shutdown or scheduled task. Excellent
+for chat servers, micro-services, and multiplayer game development.
+      `,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "GitHub Repository",
+            url: "https://github.com/KalenWillits/lexicons",
+          },
+          {
+            title:
+              "Pypi Package",
+            url: "https://pypi.org/project/lexicons/",
+          },
+        ],
+      bullets:
+        [
+          "Python",
+          "Websockets",
+          "json",
+          "Pandas",
+        ],
+    },
+    {
       title: "nbk - A simple terminal notebook for developers",
       description: `
     nbk is a terminal notebook that runs on Linux. Designed to stay out of your way while keeping enough features
