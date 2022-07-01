@@ -1,5 +1,5 @@
 
-const DevLogCard = ({ data }) => {
+const LogCard = ({ data }) => {
   return (
     <div key={data.title} className="grid grid-cols-6 p-4 text-gray-300 rounded-lg border">
     <div className="col-span-6 pr-4 pb-4 mr-4 border-b md:col-span-2 md:border-b-0 md:border-r min-w-fit md:">
@@ -15,4 +15,4 @@ const DevLogCard = ({ data }) => {
   )
 };
 
-export default DevLogCard;
+export default LogCard;
