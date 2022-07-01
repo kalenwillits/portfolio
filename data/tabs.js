@@ -16,7 +16,7 @@ export const tabs = [
   },
   {
     title: "Logs",
-    url: "/dev-logs/",
+    url: "/logs/",
     icon: "Newspaper",
   },
   {
