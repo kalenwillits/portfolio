@@ -7,7 +7,10 @@ const Logs = () => {
       <Layout activeTab="Logs">
         <div className="md:mt-10">
           {logs.map((item, index) => (
-            <LogCard data={item}/>
+            <>
+              <div className={index > 0 ? "mt-4" : ""}></div>
+              <LogCard data={item}/>
+            </>
             )
           )}
         </div>
