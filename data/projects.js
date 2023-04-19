@@ -21,6 +21,116 @@ let schema =
 export const projects =
   [
     {
+      title: "Node Core - A Python implimentation of a node scene graph.",
+      company: "",
+      description: `
+		Used to package, test, and reuse python code. Extending object
+		orienting programming from one to two dimensions allowing horizontal
+		scaling.
+	`,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "PyPi Package",
+            url: "https://pypi.org/project/node-core/",
+          },
+          {
+            title:
+              "Github Repository",
+            url: "https://github.com/kalenwillits/node-core",
+          },
+        ],
+      bullets:
+        [
+		  "Python"
+        ],
+    },
+ 
+    {
+      title: "fn - A linux command line tool for the organized execution of shell scripts.",
+      company: "Dark Mode Games",
+      description: `
+		The best little tool I have ever made. In less than 200 lines of c++
+		code, once installed this tool will allow you to keep global and
+		project level bash scripts on path to automate your work flow.
+	`,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "Github Repository",
+            url: "https://github.com/kalenwillits/fn",
+          },
+        ],
+      bullets:
+        [
+          "C++",
+		  "Linux",
+		  "Bash"
+        ],
+    },
+	      {
+      title: "Dice Algebra - A dice notation interpertor for controlled statistical distributions.",
+      company: "Dark Mode Games",
+      description: `
+		A C++ module that interprets dice notation and returns an evaluated
+		integer using pseudo random number generation. Ideal for creating
+		complex data distributions quickly. 
+	`,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "Github Repository",
+            url: "https://github.com/kalenwillits/DiceAlgebra",
+          },
+          {
+            title:
+              "Dark Mode Games Blog Post",
+            url: "https://www.darkmode.games/blog/dice_algebra",
+          },
+
+        ],
+      bullets:
+        [
+          "C++",
+        ],
+    },
+	{
+      title: "Astronautica - Godot Wild Jam #53 submission.",
+      company: "Dark Mode Games",
+      description: `
+Astronautica is a space survival game that challenges players to gather
+resources and build machines to ensure their survival. With just nine days to
+work on the game, we had to hit the ground running and battle-test our
+isometric concepts using a JSON API we had been prototyping for
+rapid content creation.
+			`,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "Download on itch.io",
+            url: "https://kilthunox.itch.io/astronautica",
+          },
+          {
+            title:
+              "Github Repository",
+            url: "https://github.com/kalenwillits/Astronautica",
+          },
+        ],
+      bullets:
+        [
+          "Godot",
+		  "Linux"
+        ],
+    },
+    {
       title: "Lexicons - A dynamic websocket framework for performance.",
       company: "",
       description: `
@@ -38,7 +148,7 @@ for chat servers, micro-services, and multiplayer game development.
           },
           {
             title:
-              "Pypi Package",
+              "PyPi Package",
             url: "https://pypi.org/project/lexicons/",
           },
         ],
@@ -83,7 +193,7 @@ for chat servers, micro-services, and multiplayer game development.
         This website is my personal creation to organize my journey through coding and developing.
 
         I built this website using Next.js and styled it with Tailwind CSS. It is reactive and mobile optimized. I chose
-        to keep the data such as this post static in order to keep maintenance and loading times at a minimum.
+        to keep the data such as this post static in order to keep maintenance and loading times at a minimum. Hosted on AWS on a Amplify container.
 
         There are still some "TODOs" on this that will help scale the content of the page that I will implement as needed.
   `,
@@ -96,6 +206,7 @@ for chat servers, micro-services, and multiplayer game development.
         ],
       bullets:
         [
+		  "AWS",
           "Next.js",
           "React.js",
           "Tailwind CSS",

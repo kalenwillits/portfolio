@@ -15,11 +15,6 @@ export const tabs = [
     icon: "PaperAirplane",
   },
   {
-    title: "Logs",
-    url: "/logs/",
-    icon: "Newspaper",
-  },
-  {
     title: "Contact",
     url: "/contact/",
     icon: "ChatAlt",

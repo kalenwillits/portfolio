@@ -1,4 +1,21 @@
 export const experience = [
+
+  {
+    title: "Data Engineer",
+    company: "Arkatechture",
+    location: "Remote",
+    timestamp: "2022 - Current",
+    bullets: [
+    "Developed custom automatons using Python, SQL and Bash",
+    "Wrote automated unit tests using pytest, and custom node-graph software",
+    "Independently designed, developed, and deployed data pipelines across AWS, GCP and Snowflake",
+	"Utilized best practices for large-scale storage across AWS S3 and RDS instances",
+	"Spearheaded cutting edge internal projects to create data pipelines using Snowflake serverless orchestration",
+	"Contributed to and reviewed the creation of automated testing for production software and internal tools",
+	"Utilized serverless technology to create event-driven automation in AWS Lambda and GCP Cloud Functions"
+    ]
+  },
+
   {
     title: "Software Developer",
     company: "Frontdesk",
