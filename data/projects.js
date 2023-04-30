@@ -20,6 +20,50 @@ let schema =
 
 export const projects =
   [
+	{
+      title: "Rust Invaders - A forked open source project of Space Invaders",
+      company: "Dark Mode Games",
+      description: `
+	  Forked from CleanCut, adding alt code sprite improvements and custom audio by Kenney.
+	  This command line implimentation of arcade classic "Space Invaders" is a simple classic
+	  featuring custom design architechture and multi-threading.
+	`,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "Github Repository",
+            url: "https://github.com/kalenwillits/RustInvaders",
+          },
+        ],
+      bullets:
+        [
+		  "Rust"
+        ],
+    },
+
+    {
+      title: "Image Tool - A Rust implimented image altering cli tool",
+      company: "",
+      description: `
+		Used as a reference repository on how to structure new cli tools.
+	`,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "Github Repository",
+            url: "https://github.com/kalenwillits/image-tool",
+          },
+        ],
+      bullets:
+        [
+		  "Rust"
+        ],
+    },
+
     {
       title: "Node Core - A Python implimentation of a node scene graph.",
       company: "",
