@@ -20,7 +20,7 @@ const AboutSection = () => {
               Kalen Willits
             </p>
             <p className="text-amber-500">
-              Software Developer
+              Data Engineer
             </p>
           </div>
         </div>
