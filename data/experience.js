@@ -6,14 +6,16 @@ export const experience = [
     location: "Remote",
     timestamp: "2022 - Current",
     bullets: [
-    "Developed custom automatons using Python, SQL and Bash",
-    "Wrote automated unit tests using pytest, and custom node-graph software",
-    "Independently designed, developed, and deployed data pipelines across AWS, GCP and Snowflake",
-	"Utilized best practices for large-scale storage across AWS S3 and RDS instances",
-	"Spearheaded cutting edge internal projects to create data pipelines using Snowflake serverless orchestration",
-	"Contributed to and reviewed the creation of automated testing for production software and internal tools",
-	"Utilized serverless technology to create event-driven automation in AWS Lambda and GCP Cloud Functions"
-    ]
+		"Developed automated data pipelines using Python, Rust, and Bash",
+		"Tapped into many data sources using a variety of delivery methods such as REST, SFTP, EDI, SOAP and more",
+		"Utilized serverless technology to create event-driven automation in AWS Lambda and GCP Cloud Functions",
+		"Designed, developed, tested, and maintained highly performant, scalable, robust, and available pipelines",
+		"Participated in proof-of-concept engagements",
+		"Participated in architectural design",
+		"Maintain security configurations",
+		"Addressed service outages and incidents",
+		"Mentored Jr. engineers on complex tasks and development"
+	],
   },
 
   {

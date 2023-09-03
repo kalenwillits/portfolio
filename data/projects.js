@@ -21,11 +21,10 @@ let schema =
 export const projects =
   [
 {
-      title: "Dice Notation Interpretor",
+      title: "Aviation Stack Data Pipeline",
       company: "",
       description: `
-	  Dice Notation interpretor for easily writting integer distrubutions using
-	  sudo-random number generation written in C++.
+	  A proof of concept AWS and Python data pipeline using S3, Lambda, and RDS.
       `,
       timestamp: "",
       links:
@@ -33,12 +32,22 @@ export const projects =
           {
             title:
               "GitHub Repository",
-            url: "https://github.com/KalenWillits/DiceAlgebra",
+            url: "https://github.com/KalenWillits/aviation_stack_data_pipeline",
           },
+		  {
+            title:
+              "Aviation Stack",
+            url: "https://github.com/KalenWillits/aviation_stack_data_pipeline",
+          },
+
         ],
       bullets:
         [
-          "C++",
+          "Python",
+          "AWS - S3 Lambda RDS ECR SecretsManager IAM",
+          "Docker",
+          "Pandas",
+		  "Postgres",
         ],
     },
 
