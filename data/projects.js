@@ -20,26 +20,56 @@ let schema =
 
 export const projects =
   [
-	{
-      title: "Rust Invaders - A forked open source project of Space Invaders",
-      company: "Dark Mode Games",
+{
+      title: "Dice Notation Interpretor",
+      company: "",
       description: `
-	  Forked from CleanCut, adding alt code sprite improvements and custom audio by Kenney.
-	  This command line implimentation of arcade classic "Space Invaders" is a simple classic
-	  featuring custom design architechture and multi-threading.
-	`,
+	  Dice Notation interpretor for easily writting integer distrubutions using
+	  sudo-random number generation written in C++.
+      `,
       timestamp: "",
       links:
         [
           {
             title:
-              "Github Repository",
-            url: "https://github.com/kalenwillits/RustInvaders",
+              "GitHub Repository",
+            url: "https://github.com/KalenWillits/DiceAlgebra",
           },
         ],
       bullets:
         [
-		  "Rust"
+          "C++",
+        ],
+    },
+
+{
+      title: "Lexicons - A dynamic websocket framework for performance.",
+      company: "",
+      description: `
+Lexicons is an asynchronous websocket server framework written in Python designed to handle small and medium sized data
+sets. The data is not persistent but dumps all tables to separate json files on shutdown or scheduled task. Excellent
+for chat servers, micro-services, and multiplayer game development.
+      `,
+      timestamp: "",
+      links:
+        [
+          {
+            title:
+              "GitHub Repository",
+            url: "https://github.com/KalenWillits/lexicons",
+          },
+          {
+            title:
+              "PyPi Package",
+            url: "https://pypi.org/project/lexicons/",
+          },
+        ],
+      bullets:
+        [
+          "Python",
+          "Websockets",
+          "json",
+          "Pandas",
         ],
     },
 
@@ -103,14 +133,21 @@ export const projects =
       timestamp: "",
       links:
         [
+		{
+            title:
+              "Github Repository (Rust)",
+            url: "https://github.com/kalenwillits/function",
+          },
+
           {
             title:
-              "Github Repository",
+              "Github Repository (C++)",
             url: "https://github.com/kalenwillits/fn",
           },
         ],
       bullets:
         [
+		  "Rust",
           "C++",
 		  "Linux",
 		  "Bash"
@@ -174,37 +211,7 @@ rapid content creation.
 		  "Linux"
         ],
     },
-    {
-      title: "Lexicons - A dynamic websocket framework for performance.",
-      company: "",
-      description: `
-Lexicons is an asynchronous websocket server framework written in Python designed to handle small and medium sized data
-sets. The data is not persistent but dumps all tables to separate json files on shutdown or scheduled task. Excellent
-for chat servers, micro-services, and multiplayer game development.
-      `,
-      timestamp: "",
-      links:
-        [
-          {
-            title:
-              "GitHub Repository",
-            url: "https://github.com/KalenWillits/lexicons",
-          },
-          {
-            title:
-              "PyPi Package",
-            url: "https://pypi.org/project/lexicons/",
-          },
-        ],
-      bullets:
-        [
-          "Python",
-          "Websockets",
-          "json",
-          "Pandas",
-        ],
-    },
-    {
+        {
       title: "nbk - A simple terminal notebook for developers",
       description: `
     nbk is a terminal notebook that runs on Linux. Designed to stay out of your way while keeping enough features
