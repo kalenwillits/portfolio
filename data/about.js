@@ -27,11 +27,9 @@ export const about = {
 	modeling and product usability from a customer perspective.
 	<br>
 	<br>
-	Aeronautical enthusiast and student pilot
-	with 10+ hours of flight time working on a
-	FAA pilot's license. Aiming to make
-	learning to fly more accessible through
-	software and simulation.
+	Aeronautical enthusiast and student pilot working on a FAA pilot's license.
+	Aiming to make learning to fly more accessible through software and
+	simulation.
   </p>
   ` }
 
