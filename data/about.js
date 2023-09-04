@@ -25,7 +25,7 @@ export const about = {
 	<br>
 	Previous experience working as a Full Stack Developer using React, Next.js,
 	and Django frameworks providing a deep understanding for practical data
-	modeling and product usablity from a customer perspective.
+	modeling and product usability from a customer perspective.
   </p>
   ` }
 
