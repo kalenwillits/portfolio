@@ -12,9 +12,6 @@ const Contact = () => {
         LinkedIn: <a href="https://www.linkedin.com/in/kalenwillits/" className="text-sky-500" target="_blank" >https://www.linkedin.com/in/kalenwillits/</a>
       </div>
       <div>
-        Phone: <a href="tel:8026180405" className="text-sky-500">(802) 618-0405</a>
-      </div>
-      <div>
         Email: <a href="mailto:ForwardToKalen@gmail.com" className="text-sky-500">ForwardToKalen@gmail.com</a>
       </div>
     </div>

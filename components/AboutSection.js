@@ -7,7 +7,7 @@ const AboutSection = () => {
 
   return (
       <div className="grid grid-cols-5 md:mt-10">
-        <div className="grid col-span-5 place-content-start md:col-span-1">
+		  <div className="grid col-span-5 place-content-center md:place-content-start md:col-span-1">
         <Image
           className="p-0 rounded-full border border-white"
           src="/selfie-edited.jpg"

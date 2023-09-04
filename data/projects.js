@@ -50,14 +50,44 @@ export const projects =
 		  "Postgres",
         ],
     },
-
 {
-      title: "Lexicons - A dynamic websocket framework for performance.",
+      title: "fn - A linux command line tool for the organized execution of shell scripts.",
       company: "",
       description: `
-Lexicons is an asynchronous websocket server framework written in Python designed to handle small and medium sized data
-sets. The data is not persistent but dumps all tables to separate json files on shutdown or scheduled task. Excellent
-for chat servers, micro-services, and multiplayer game development.
+		The best little tool I have ever made. In less than 200 lines of c++
+		code, once installed this tool will allow you to keep global and
+		project level bash scripts on path to automate your work flow.
+	`,
+      timestamp: "",
+      links:
+        [
+		{
+            title:
+              "Github Repository (Rust)",
+            url: "https://github.com/kalenwillits/function",
+          },
+
+          {
+            title:
+              "Github Repository (C++)",
+            url: "https://github.com/kalenwillits/fn",
+          },
+        ],
+      bullets:
+        [
+		  "Rust",
+          "C++",
+		  "Linux",
+		  "Bash"
+        ],
+    },
+
+
+{
+      title: "Lexicons - A dynamic websocket service framework",
+      company: "",
+      description: `
+	  Lexicons is a stateless middleware websocket server framework written in Python designed to handle small and medium sized data sets.
       `,
       timestamp: "",
       links:
@@ -131,40 +161,9 @@ for chat servers, micro-services, and multiplayer game development.
         ],
     },
  
-    {
-      title: "fn - A linux command line tool for the organized execution of shell scripts.",
-      company: "Dark Mode Games",
-      description: `
-		The best little tool I have ever made. In less than 200 lines of c++
-		code, once installed this tool will allow you to keep global and
-		project level bash scripts on path to automate your work flow.
-	`,
-      timestamp: "",
-      links:
-        [
-		{
-            title:
-              "Github Repository (Rust)",
-            url: "https://github.com/kalenwillits/function",
-          },
-
-          {
-            title:
-              "Github Repository (C++)",
-            url: "https://github.com/kalenwillits/fn",
-          },
-        ],
-      bullets:
-        [
-		  "Rust",
-          "C++",
-		  "Linux",
-		  "Bash"
-        ],
-    },
-	      {
+    	      {
       title: "Dice Algebra - A dice notation interpertor for controlled statistical distributions.",
-      company: "Dark Mode Games",
+      company: "",
       description: `
 		A C++ module that interprets dice notation and returns an evaluated
 		integer using pseudo random number generation. Ideal for creating
@@ -178,12 +177,6 @@ for chat servers, micro-services, and multiplayer game development.
               "Github Repository",
             url: "https://github.com/kalenwillits/DiceAlgebra",
           },
-          {
-            title:
-              "Dark Mode Games Blog Post",
-            url: "https://www.darkmode.games/blog/dice_algebra",
-          },
-
         ],
       bullets:
         [
@@ -192,7 +185,7 @@ for chat servers, micro-services, and multiplayer game development.
     },
 	{
       title: "Astronautica - Godot Wild Jam #53 submission.",
-      company: "Dark Mode Games",
+      company: "",
       description: `
 Astronautica is a space survival game that challenges players to gather
 resources and build machines to ensure their survival. With just nine days to
