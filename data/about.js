@@ -20,12 +20,18 @@ export const about = {
 	thanks to the langauge's idea of "borrowing" pointers and strict static typing. Some metrics show up to a 
 	ten times faster application runtime with a lower memory foot print than <nobr style="color:rgb(13 165 233)">Python</nobr>
 	allowing for smaller memory allocations across serverless architectures.
-
 	<br>
 	<br>
 	Previous experience working as a Full Stack Developer using React, Next.js,
 	and Django frameworks providing a deep understanding for practical data
 	modeling and product usability from a customer perspective.
+	<br>
+	<br>
+	Aeronautical enthusiast and student pilot
+	with 10+ hours of flight time working on a
+	FAA pilot's license. Aiming to make
+	learning to fly more accessible through
+	software and simulation.
   </p>
   ` }
 
