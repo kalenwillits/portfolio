@@ -1,15 +1,13 @@
 export const about = {
-  title: "Data Engineer & Student Pilot",
+  title: "Senior Software Engineer & Student Pilot",
   description: `<p>
-  Polyglot developer designing and deploying custom solutions in a client facing role enabling actionable insights on otherwise unreachable data.
+  Polyglot software engineer and pilot-coder located in New Hampshire with 4+
+  years of experience developing data driven systems and SQL databases. Holding
+  a Springboard Data Science certification and AWS Cloud Practitioner
+  certification. Fluent in the Python Programming language, proficient in SQL,
+  as well as curious and eager to learn new technologies. Currently pursuing a
+  private pilot’s license in Van’s RV12 aircraft with 12+ hours of flight time.
   <br>
-
-	<br>
-	Aeronautical enthusiast, open source developer, and student pilot working on a FAA pilot's license.
-	Creating tools and technology to make flight training more accessible through software and
-	simulation.
-	<br>
-
 
 
 	<br>

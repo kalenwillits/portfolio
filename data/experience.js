@@ -1,20 +1,21 @@
 export const experience = [
 
   {
-    title: "Data Engineer",
+    title: "Senior Software Engineer",
     company: "Arkatechture",
     location: "Remote",
     timestamp: "2022 - Current",
     bullets: [
-		"Developed automated data pipelines using Python, Rust, and Bash",
-		"Tapped into many data sources using a variety of delivery methods such as REST, SFTP, EDI, SOAP and more",
-		"Utilized serverless technology to create event-driven automation in AWS Lambda and GCP Cloud Functions",
-		"Designed, developed, tested, and maintained highly performant, scalable, robust, and available pipelines",
-		"Participated in proof-of-concept engagements",
-		"Participated in architectural design",
-		"Maintain security configurations",
-		"Addressed service outages and incidents",
-		"Mentored Jr. engineers on complex tasks and development"
+		      " Integrated source to target data pipelines using a wide variety of custom solutions and technology",
+      "Mentored a team new engineers holding MS in computer science to become proficient in developing new data pipelines",
+      "Leveraged SQL, Python, and Rust across AWS, Snowflake, BigQuery, and MSQL to efficiently manipulate large amounts of data",
+      "Designed data ingestion processes, ensuring data is collected, transformed, and conformed to meet quality and regulatory standards.",
+      "Developed strategies for enriching data through integration with external sources, APIs, or data providers to enhance its quality and value.",
+      "Implemented best practices for data conformance and validation.",
+      "Utilized AWS S3 and Lambda serverless technology to create event-driven automation in AWS",
+	"Worked on capacity planning and resource allocation based on data-driven insights from given time allocations",
+ "Collaborated with teams across the organization to directly solve individual client requirements",
+	" Monitored KPIs and provided recommendations for optimization through logging, SNS notifications, and generated statistics"
 	],
   },
 
@@ -24,14 +25,13 @@ export const experience = [
     location: "Remote",
     timestamp: "2020 - 2022",
     bullets: [
-  "Developed backend software using the Django, Django Ninja, and Django REST Frameworks",
-  "Designed and integrated schemas for a Postgres database.",
-  "Created frontend user interface using React and Next.js frameworks",
-  "Collaborated with team members using Git and Github",
-  "Produced efficient and elegant code based on requirements",
-  "Tested and created pull requests for sass and client facing applications",
-  "Troubleshot, debugged, maintained and improved existing software",
-  "Developed technical documentation and materials to guide future software development projects",
+"Developed REST API software using the Django, Django Ninja, and Django REST Python Frameworks",
+"Built data models using the Django ORM for a PostgreSQL database",
+"Created frontend data reports for web applications using JavaScript’s React and Next.js frameworks",
+"Collaborated with team members using Git and GitHub version control software using Agile methodologies",
+"Tested and created pull requests for SASS and client facing applications",
+"Wrote automated unit tests for new features in Python Django’s unit test framework",
+"Developed technical documentation and materials to guide future software development projects"
     ]
   },
   {
@@ -40,16 +40,14 @@ export const experience = [
     location: "Remote",
     timestamp: "2019 - 2020",
     bullets: [
-    "Developed tools to increase workflow efficiency for support agents using the Python programming language",
-    "Mined internal data to feature-engineer metrics which helped develop content and training across the floor ",
-    "Assisted the reporting and analytics team using SQL and Tableau to drive business decisions",
-    "Gathered and analyzed software log data to develop hypotheses to correct technical problems in business production environments ",
-    "Designed NLP machine learning models to classify clusters of confusion regarding internal processes",
-    "Wrote and edited internal technical articles for procedural troubleshooting using the scientific method",
-    "Remotely supported Carbonite data protection software on PCs, servers, and a wide variety of infrastructure",
-    "Utilized excellent communication skills, both written and verbal, with the ability to communicate to a range of technical and non-technical customers as well as stakeholders",
-      "Guided Junior agents with technical issues and internal processes.",
-  ],
+"Remotely supported the Carbonite Business Professional platform to ensure proper backups for SQL databases",
+"Mined internal data to feature-engineer metrics",
+"Identified areas of inefficiency within company processes and authored new procedures",
+"Generated static visualizations for reporting using Matplotlib",
+"Designed NLP machine learning models to classify clusters of confusion regarding internal processes",
+"Authored internal technical articles on data-driven decision-making processes",
+"Communicated findings and insights effectively to upper management and team members"
+   ],
   },
   {
     title: "Data Science Fellow",
