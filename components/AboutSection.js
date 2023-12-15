@@ -8,13 +8,15 @@ const AboutSection = () => {
   return (
       <div className="grid grid-cols-5 md:mt-10">
 		  <div className="grid col-span-5 place-content-center md:place-content-start md:col-span-1">
+			  <div className="flex-none place-content-center">
         <Image
-          className="p-0 rounded-full border border-white"
+          className="p-0 rounded-full border border-white flex-none"
           src="/selfie-edited.jpg"
           alt="selfie"
           height={imageSize}
           width={imageSize * imageAspectRatio}
         />
+				  </div>
           <div className="text-center text-gray-300 break-normal">
             <p>
               Kalen Willits
